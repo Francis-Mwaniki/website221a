@@ -1,0 +1,169 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="sample.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="maureen.html" target="_blank">HOME</a></li>
+                        <li><a href="about.html" target="_blank">ABOUT</a></li>
+                        <li><a href="info.html" target="_blank">INFO</a></li>
+                        <li><a href="contact.html" target="_blank">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </nav>
+           <div class="text-box">
+            <h1> Kabarak University</h1>
+            <p> Kabarak University is one of Kenya's Top private<br> chartered institution of higher learning that provides holistic Christian-based quality education.</p>
+            <a href="" class="hero-btn">Visit Us to Know More</a>
+           </div>
+
+           </section>
+
+<!------Course------>
+<section class="course">
+    <h1>Courses we Offer</h1>
+    <p>We offer a variety of courses based on the schools they are categorized in</p>
+    <div class="row">
+        <div class="course-col">
+        <h3> Diploma</h3>
+        <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br>the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+        </p>
+        </div>
+    <div class="course-col">
+        <h3> Degree</h3>
+        <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br> the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+        </p>
+        </div>
+    <div class="course-col">
+        <h3> Masters</h3>
+        <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br> the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+        </p>
+        </div>
+    </div>
+    </section>
+
+    <!-----campus----->
+
+    <section class="campus">
+<h1>Our Global Campus</h1>
+<p>We offer a variety of courses based on the schools they are categorized in</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/acrop (2).png">
+        <div class="layer">
+            <h3>ADMIN</h3>
+        </div>
+    </div>
+<div class="campus-col">
+    <img src="images/ecrop.png">
+    <div class="layer">
+        <h3>TOWN CAMPUS</h3>
+    </div>
+</div>
+<div class="campus-col">
+    <img src="images/gcrop.png">
+    <div class="layer">
+        <h3>CHAPEL</h3>
+    </div>
+</div>
+</div>
+    </section>
+
+    <!-----Facilites----->
+    <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>We offer a variety of courses based on the schools they are categorized in</p>
+        <div class="row">
+            <div class="facilities-col">
+            <img src="images/pool.png">
+            <h3> School Swimming Pool</h3>
+            <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br> the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+            </p>
+            </div>
+            <div class="facilities-col">
+            <img src="images/h.png">
+            <h3> Auditorium</h3>
+            <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br> the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+            </p>
+            </div>
+            <div class="facilities-col">            <img src="images/music.png">
+            <h3> School of Music</h3>
+            <p>This paper looks into 4ps an app that is going to improve<br> the technological infrastructure of Kabarak University without eliminating <br> the existing systems. With all the research study done this sytem will definitely bring a huge difference to the entire school
+            </p>
+            </div>
+        </div>
+
+    </section>
+    <!----quotes----->
+    <h1> What staff say</h1>
+    <p> Quotes</p>
+    <div class="row">
+        <div class="quotes-col">
+            <img src="images/vc.png">
+            <div>
+                <p>Decency Pays</p>
+                <h3>Vice Chancellor</h3>
+            </div>
+        </div>
+        <div class="quotes-col">
+            <img src="images/coun.png">
+            <div>
+                <p>Decency Pays</p>
+                <h3>School Advisor</h3>
+            </div>
+        </div>
+        <div class="quotes-col">
+            <img src="images/librarian.png">
+            <div>
+                <p>Hardwork Pays</p>
+                <h3>Librarian</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+        </section>
+        
+    </body>
+</html>
